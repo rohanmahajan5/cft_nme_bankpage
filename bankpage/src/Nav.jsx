@@ -12,6 +12,9 @@ function Nav() {
         <li className="nav_button"><Link to="/">Home</Link></li>
         <li className="nav_button"><Link to="/team">Team</Link></li>
         {/*<li><p id="gs_title">Goldman Sachs</p></li>*/}
+        <li className="button_container">
+          <a href="https://www.marcus.com/us/en/credit-cards/gm-cards?partner=gm&prd=cc&chl=wb&schl=mcs&cid=hp_navcc" className="offers_button">Best Credit Card Offers</a>
+        </li>
       </ul>
     </header>
     
