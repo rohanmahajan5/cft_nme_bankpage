@@ -65,3 +65,59 @@ section {
 #ceo p {
   padding: 0 5%;
 }
+
+.team_container {
+  display: flex;              
+  flex-direction: row;        
+  justify-content: center;    
+  flex-wrap: wrap;           
+  padding: 1rem 0; 
+}
+
+.profile-card {
+  width: 300px;              
+  background-color: #ffffff; 
+  border-radius: 12px;       
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;             
+  margin: 10px;
+  text-align: center;       
+  font-family: 'Roboto', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);   
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.profile-photo {
+  width: 120px;           
+  height: 120px;
+  border-radius: 50%;      
+  object-fit: cover;       
+  margin-bottom: 16px;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.profile-details {
+  list-style-type: none;   
+  padding: 0;
+  margin: 0;
+  text-align: left;      
+}
+
+.profile-details li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555555;
+}
+
+.profile-details strong {
+  color: #1D4F91;         
+}
