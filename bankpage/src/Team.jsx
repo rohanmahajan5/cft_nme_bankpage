@@ -5,13 +5,16 @@ function Team() {
     <section className="team_container">
         <Profile
             name="Allison Jin"
-            hometown="--"
-            major="--"
+            photo="/assets/allison_profile.png"
+            hometown=" New York, NY"
+            education=" Cornell University"
+            major=" Operations Research"
         />
         <Profile
-            name="Rohan Mahajan"
-            hometown="New York, NY"
-            major="Computer Science"
+            name=" Rohan Mahajan"
+            hometown=" New York, NY"
+            education=" Cornell University"
+            major=" Computer Science"
         />
     </section>
         
